@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>17 - Haunted House</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <canvas class="webgl"></canvas>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas class="webgl"> </canvas>
+    <audio id="myAudio" loop>
+      <source src="./assets/musique/pokemonLavanville.mp3" type="audio/mp3" />
+    </audio>
+    <button id="muteButton">Mute/Unmute</button>
     <script type="module" src="./script.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
 </html>
